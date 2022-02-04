@@ -1,16 +1,16 @@
 <template>
-  <img alt="Vue logo" src="./assets/logo.png">
-  <HelloWorld msg="Welcome to Your Vue.js App"/>
+  <img alt="Vue logo" src="./assets/teasel_avatar.jpg" />
+  <StopHeight chain="fetchhub" />
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
+import StopHeight from './components/StopHeight.vue'
 
 export default {
   name: 'App',
   components: {
-    HelloWorld
-  }
+    StopHeight,
+  },
 }
 </script>
 
